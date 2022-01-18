@@ -28,17 +28,7 @@ for (let i = 0; i < btns.length; i++) {
             document.querySelector('#slide2').style.display = "none"
             document.querySelector('#slide3').style.display = "inline-block"
            }
-        }else{
-          if(i == 0){
-            // window.scroll(0,slide1);
-           }
-           if(i == 1){
-            window.scroll(0,slide2);
-           }
-           if(i == 2){
-            window.scroll(0,slide3);
-           }
-        } 
+        }
        
   });
 }
